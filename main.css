@@ -1,0 +1,37 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  font-family: 'Comic Neue', cursive;
+  background: radial-gradient(circle, #2b2c2e 13%, #191919 65%);
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+}
+
+.card {
+  position: relative;
+  margin: 10px;
+  text-align: center;
+}
+
+.one {
+  background-image: url("../img/portrait-657116_1920.jpg");
+}
+
+.two {
+  background-image: url("../img/man-g06adaf161_1920.jpg");
+}
+/*# sourceMappingURL=main.css.map */
